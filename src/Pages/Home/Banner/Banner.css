@@ -7,6 +7,13 @@ height: 100vh;
 /* width: 100%; */
 background-size: cover;
 }
+.navbar-light .navbar-brand {
+   color: rgba(250, 250, 250, 0.9) !important;
+}
+.navbar-light .navbar-toggler {
+   color: rgba(255, 255, 255, 0.55) !important;
+   border-color: rgba(255, 255, 255, 0.1) !important;
+}
 .center {
    margin-top: 40%;
   
@@ -18,4 +25,15 @@ background-size: cover;
   .hero_img{
      width: 100px;
      height: 100px;
+  }
+  .hero_icons li{
+text-decoration: none;
+list-style: none;
+
+padding: 5px;
+font-size: 20px;
+  }
+
+  .hero_icons li a{
+     color: white;
   }

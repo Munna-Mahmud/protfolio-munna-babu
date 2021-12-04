@@ -21,83 +21,83 @@ const Banner = () => {
   return (
     <div>
       <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-       
-        fpsLimit: 60,
-        interactivity: {
-          events: {
-            onClick: {
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+
+          fpsLimit: 60,
+          interactivity: {
+            events: {
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
+              onHover: {
+                enable: true,
+                mode: "repulse",
+              },
+              resize: true,
+            },
+            modes: {
+              bubble: {
+                distance: 400,
+                duration: 2,
+                opacity: 0.8,
+                size: 10,
+              },
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: "#ffffff",
+            },
+            links: {
+              color: "#ffffff",
+              distance: 100,
               enable: true,
-              mode: "push",
+              opacity: 0.5,
+              width: 1,
             },
-            onHover: {
+            collisions: {
               enable: true,
-              mode: "repulse",
             },
-            resize: true,
-          },
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 10,
-            },
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
-          },
-          links: {
-            color: "#ffffff",
-            distance: 100,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outMode: "bounce",
-            random: false,
-            speed: 2,
-            straight: false,
-          },
-          number: {
-            density: {
+            move: {
+              direction: "none",
               enable: true,
-              value_area: 800,
+              outMode: "bounce",
+              random: false,
+              speed: 2,
+              straight: false,
             },
-            value: 100,
+            number: {
+              density: {
+                enable: true,
+                value_area: 800,
+              },
+              value: 100,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: "circle",
+            },
+            size: {
+              random: true,
+              value: 5,
+            },
           },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            random: true,
-            value: 5,
-          },
-        },
-        detectRetina: true,
-      }}
-    />
+          detectRetina: true,
+        }}
+      />
       <div className="img">
         <Navigation></Navigation>
         <Row>
@@ -105,7 +105,7 @@ const Banner = () => {
             <div className="center justify-content-center align-items-center">
               <div className="justify-content-center hero-content align-items-center">
                 <img className=" hero_img rounded-circle  img-fluid" src={hero} alt="" />
-                <h1 className="text-white d-block">MUNNA BABU</h1>
+                <h1 className=" text-white d-block">MUNNA BABU</h1>
                 <p  >
                   <span style={{ color: 'white', fontWeight: 'bold' }}>
                     {/* Style will be inherited from the parent element */}
@@ -123,10 +123,12 @@ const Banner = () => {
               </div>
 
             </div>
-            <ul className="text-white justify-content-center align-items-center  d-flex">
-              <i className=" m-2  fas fa-envelope-open-text"></i>
-              <i className=" m-2  fas fa-envelope-open-text"></i>
-              <i className=" m-2  fas fa-envelope-open-text"></i>
+            <ul className="hero_icons text-white justify-content-center align-items-center  d-flex">
+              <li><i className="fab fa-google"></i></li>
+              <li> <a target="_blank" href="https://www.facebook.com/munnaMaHmud4/"><i className="fab fa-facebook"></i></a> </li>
+              <li> <a target="_blank" href="https://www.linkedin.com/in/munna-mahmud-ba3371211/"><i className="fab fa-linkedin"></i></a>
+              </li> <li> <a target="_blank" href="https://github.com/Munna-Mahmud"><i className="fab fa-github"></i></a> </li>
+              <li><i className="fab fa-instagram"></i></li>
             </ul>
 
           </Col>
