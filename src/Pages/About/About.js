@@ -4,7 +4,7 @@ import about from '../../Images/munna mahmud.jpg'
 
 const About = () => {
     return (
-        <div className=" pt-4 mb-2 about-details text-dark  ">
+        <div id="about" className=" pt-4 mb-2 about-details text-dark  ">
             <div className="container">
                 <div className="row ">
                     <div className=" col-12 col-md-4">

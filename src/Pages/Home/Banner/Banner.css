@@ -11,3 +11,11 @@ background-size: cover;
    margin-top: 40%;
   
   }
+.hero-content{
+   /* margin-left: 8rem; */
+   text-align: center;
+}
+  .hero_img{
+     width: 100px;
+     height: 100px;
+  }

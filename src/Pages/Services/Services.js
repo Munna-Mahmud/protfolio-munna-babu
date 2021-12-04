@@ -8,12 +8,13 @@ import './Services.css'
 
 const Services = () => {
     return (
-        <div>
+        <div id="services">
             <div className=" mt-5 Service-details text-dark  ">
                 <div className="container text-start">
                     <h2 style={{fontFamily:"Kaushan Script, cursive"}}>What I DO?</h2>
                     <div className="row ">
-                        <div className=" col-12 col-md-4 text-start">
+                        <div className=" col-12 col-md-4 text-start"  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <div>
                                 <img className=" img-fluid " src={HTML} alt="" />
                                 <h5>HTML & CSS Resposive Web Design</h5>
@@ -22,7 +23,8 @@ const Services = () => {
 
 
                         </div>
-                        <div className="col-12 col-md-4 text-start">
+                        <div className="col-12 col-md-4 text-start"  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <div>
                                 <img className=" img-fluid" src={react} alt="" />
                                 <h5>React JS Development</h5>
@@ -30,7 +32,8 @@ const Services = () => {
                             </div>
 
                         </div>
-                        <div className="col-12 col-md-4 text-start">
+                        <div className="col-12 col-md-4 text-start"  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <div>
                                 <img className=" img-fluid" src={Javascript} alt="" />
                                 <h5>JavasScript Development</h5>
@@ -41,7 +44,8 @@ const Services = () => {
                     </div>
 
                     <div className="row ">
-                        <div className=" col-12 col-md-4 text-start">
+                        <div className=" col-12 col-md-4 text-start"  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <div>
                                 <img className=" img-fluid " src={Node} alt="" />
                                 <h5>Node.JS Development</h5>
@@ -50,7 +54,8 @@ const Services = () => {
 
 
                         </div>
-                        <div className="col-12 col-md-4 text-start">
+                        <div className="col-12 col-md-4 text-start"  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <div>
                                 <img className=" img-fluid" src={HTML} alt="" />
                                 <h5>PSD To HTML Design </h5>
@@ -58,7 +63,8 @@ const Services = () => {
                             </div>
 
                         </div>
-                        <div className="col-12 col-md-4 text-start">
+                        <div className="col-12 col-md-4 text-start"  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <div>
                                 <img className=" img-fluid" src={theme} alt="" />
                                 <h5>CMS Theming Services</h5>
