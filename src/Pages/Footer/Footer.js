@@ -67,13 +67,13 @@ const Footer = () => {
                             <div className="footer-call-to-action">
                                 <h2 className="footer-call-to-action-title"> Let's Chat</h2>
                                 <p className="footer-call-to-action-description"> Have a support question?</p>
-                            
+                            <p>munna.babu705@gmail.com</p>
+                
                             </div>
-                            <div className="footer-call-to-action">
-                                <h3 > You Call Me</h3>
-                                <p > +8801904625620</p>
-                            </div>
-                            <ul className="footer-social-list d-flex">
+                     
+                         
+                        </div>
+                        <ul className="footer-social-list d-flex  hero-icons " style={{marginRight:"4rem"}}>
                                 <li><i className="fab fa-google"></i></li>
                                 <li> <a target="_blank" href="https://www.facebook.com/munnaMaHmud4/"><i className="fab fa-facebook"></i></a> </li>
                                 <li> <a target="_blank" href="https://www.linkedin.com/in/munna-mahmud-ba3371211/"><i className="fab fa-linkedin"></i></a>
@@ -81,8 +81,6 @@ const Footer = () => {
                                 <li><i className="fab fa-instagram"></i></li>
 
                             </ul>
-
-                        </div>
 
                     </div>
                     <div className="footer-copyright">
