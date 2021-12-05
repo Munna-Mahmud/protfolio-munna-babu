@@ -22,13 +22,16 @@ function App() {
     <div className="App" >
       {
         loading ?
-        <ScaleLoader
-        color={"#000000"}
-         loading={loading}
-          size={30} />
-        :
+          <ScaleLoader
+            color={"#000000"}
+            loading={loading}
+            size={30} />
+          :
+
 
           <Router>
+           
+
             <Routes>
 
               <Route index element={<Home />}> </Route>
@@ -44,6 +47,9 @@ function App() {
               <Route path="blogs" element={<Blogs />}></Route>
 
             </Routes>
+
+       
+           
 
           </Router>
       }

@@ -14,21 +14,21 @@ const Footer = () => {
                         <div className="footer-content-column">
                             <div className="footer-logo">
                                 <a className="footer-logo-link" href="/home">
-                            
-                                   <h2>MUNNA BABU</h2>
+
+                                    <h2>MUNNA BABU</h2>
                                 </a>
                             </div>
-                             <p>Front-End Developer @ MERN Stack Developer</p>
-                         
+                            <p>Front-End Developer @ MERN Stack Developer</p>
+
                         </div>
                         <div className="footer-content-column">
                             <div className="footer-menu">
                                 <h2 className="footer-menu-name"> Munna Babu</h2>
                                 <ul id="menu-company" className="footer-menu-list">
                                     <li >
-                                        <a href="/">Contact</a>
+                                        <a href="/contact">Contact</a>
                                     </li>
-                                   
+
                                 </ul>
                             </div>
                             <div className="footer-menu">
@@ -47,7 +47,7 @@ const Footer = () => {
                             <div className="footer-menu">
                                 <h2 className="footer-menu-name"> Quick Links</h2>
                                 <ul id="menu-quick-links" className="footer-menu-list">
-                                 
+
                                     <li>
                                         <a target="_blank" href="/home">Services</a>
                                     </li>
@@ -67,29 +67,31 @@ const Footer = () => {
                             <div className="footer-call-to-action">
                                 <h2 className="footer-call-to-action-title"> Let's Chat</h2>
                                 <p className="footer-call-to-action-description"> Have a support question?</p>
-                            <p>munna.babu705@gmail.com</p>
-                
-                            </div>
-                     
-                         
-                        </div>
-                        <ul className="footer-social-list d-flex  hero-icons " style={{marginRight:"4rem"}}>
-                                <li><i className="fab fa-google"></i></li>
-                                <li> <a target="_blank" href="https://www.facebook.com/munnaMaHmud4/"><i className="fab fa-facebook"></i></a> </li>
-                                <li> <a target="_blank" href="https://www.linkedin.com/in/munna-mahmud-ba3371211/"><i className="fab fa-linkedin"></i></a>
-                                </li> <li> <a target="_blank" href="https://github.com/Munna-Mahmud"><i className="fab fa-github"></i></a> </li>
-                                <li><i className="fab fa-instagram"></i></li>
+                                <p>munna.babu705@gmail.com</p>
 
-                            </ul>
+                            </div>
+
+
+                        </div>
+                        <ul className="footer-social-list d-flex  hero-icons " style={{ marginRight: "4rem" }}>
+                            <li><i className="fab fa-google"></i></li>
+                            <li> <a target="_blank" href="https://www.facebook.com/munnaMaHmud4/"><i className="fab fa-facebook"></i></a> </li>
+                            <li> <a target="_blank" href="https://www.linkedin.com/in/munna-mahmud-ba3371211/"><i className="fab fa-linkedin"></i></a>
+                            </li> <li> <a target="_blank" href="https://github.com/Munna-Mahmud"><i className="fab fa-github"></i></a> </li>
+                            <li><i className="fab fa-instagram"></i></li>
+
+                        </ul>
 
                     </div>
                     <div className="footer-copyright">
                         <div className="footer-copyright-wrapper">
                             <p className="footer-copyright-text">
-                                <a className="footer-copyright-link" href="/home" target="_self"> ©2021. | Designed By: Munna Mahmud. || All rights reserved. </a>
+                                <a className="footer-copyright-link" href="/home" target="_self"> ©2021. | Designed By: Munna Babu. || All rights reserved. </a>
                             </p>
                         </div>
                     </div>
+
+                 
                 </footer>
             </div>
         </div>

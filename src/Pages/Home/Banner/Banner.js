@@ -105,12 +105,12 @@ const Banner = () => {
             <div className="center justify-content-center align-items-center">
               <div className="justify-content-center hero-content align-items-center">
                 <img className=" hero_img rounded-circle  img-fluid" src={hero} alt="" />
-                <h1 className=" text-white d-block">MUNNA BABU</h1>
+                <h1 className=" text-white d-block">HI, I'M MUNNA BABU</h1>
                 <p  >
                   <span style={{ color: 'white', fontWeight: 'bold' }}>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
-                      words={[' Front-End Developer', ' MERN Stack Developer', ' WordPress Developer']}
+                      words={[' Front-End Developer',  ' UI Designer', ' MERN Stack Developer']}
                       cursor
                       cursorStyle='_'
                       typeSpeed={70}
