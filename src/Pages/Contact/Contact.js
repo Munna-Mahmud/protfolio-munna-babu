@@ -41,7 +41,7 @@ const Contact = () => {
                         <div class="row d-flex justify-content-center align-items-center h-100">
                             <div class="col-12 col-md-9 col-lg-7 col-xl-6">
                                 <div class="card" style={{ borderRadius: " 15px" }}>
-                                    <div class="card-body p-5">
+                                    <div class=" p-5">
                                         <h2 class="text-uppercase text-center mb-5">Contact Me</h2>
 
                                         <form onSubmit={sendEmail}>
@@ -64,7 +64,7 @@ const Contact = () => {
                                             </div>
 
                                             <div class="d-flex  justify-content-center">
-                                                <input className="btn bg-primary text-white" type="submit" value="Send" />
+                                                <input className="btn send_btn text-white" type="submit" value="Send" />
 
                                             </div>
                                             <div className="row text-center  text-success">

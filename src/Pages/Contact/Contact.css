@@ -1,3 +1,13 @@
 .contact_section{
 background-color: darkgray;
 }
+
+form{
+    background-color: none !important;
+}
+.send_btn {
+    background-color: black;
+    border: 2px solid black;
+
+
+}

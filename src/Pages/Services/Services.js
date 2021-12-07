@@ -8,8 +8,8 @@ import './Services.css'
 
 const Services = () => {
     return (
-        <div id="services">
-            <div className=" mt-5 Service-details text-dark  ">
+        <div id="services" className="bg-dark text-white">
+            <div className=" mt-5 Service-details  ">
                 <div className="container text-start">
                     <h2 style={{fontFamily:"Kaushan Script, cursive"}}>What I DO?</h2>
                     <div className="row ">

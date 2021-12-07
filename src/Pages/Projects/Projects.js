@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css'
-
 import skate from '../../Images/Projects/skateboarding.jpg'
 import health from '../../Images/Projects/health.jpg'
 import travel from '../../Images/Projects/travelling.jpg'
@@ -8,7 +7,7 @@ import islam from '../../Images/Projects/islam.jpg'
 
 const Projects = () => {
     return (
-        <div id="projects" className=" container mt-5">
+        <div id="projects" className=" text-white container mt-5">
             <h2 className="text-start p-4" style={{ fontFamily: "Kaushan Script, cursive" }}>Recent Works</h2>
             <div className="row row-cols-1 row-cols-md-2 g-4">
                 <div className="col" data-aos="flip-left" data-aos-easing="ease-out-cubic"

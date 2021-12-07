@@ -18,7 +18,7 @@ const Footer = () => {
                                     <h2>MUNNA BABU</h2>
                                 </a>
                             </div>
-                            <p>Front-End Developer @ MERN Stack Developer</p>
+                            <p>Front-End Developer & MERN Stack Developer</p>
 
                         </div>
                         <div className="footer-content-column">

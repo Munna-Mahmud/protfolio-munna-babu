@@ -3,8 +3,8 @@ import blog1 from '../../Images/blogs1.jpg'
 
 const Blogs = () => {
     return (
-        <div id="blogs">
-            <h2 className="text-start p-4" style={{ fontFamily: "Kaushan Script, cursive" }}>latest Blogs</h2>
+        <div id="blogs" >
+            <h2 className="text-start text-white p-4" style={{ fontFamily: "Kaushan Script, cursive" }}>latest Blogs</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" data-aos="fade-right"
                     data-aos-offset="300"

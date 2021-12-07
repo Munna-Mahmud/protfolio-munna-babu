@@ -19,7 +19,7 @@ function App() {
     }, 3000)
   }, [])
   return (
-    <div className="App" >
+    <div className="App">
       {
         loading ?
           <ScaleLoader
@@ -30,9 +30,9 @@ function App() {
 
 
           <Router>
-           
-
             <Routes>
+
+            <Route path="/" element={<Home />}> </Route>
 
               <Route index element={<Home />}> </Route>
 
@@ -47,10 +47,6 @@ function App() {
               <Route path="blogs" element={<Blogs />}></Route>
 
             </Routes>
-
-       
-           
-
           </Router>
       }
 
